@@ -1,0 +1,107 @@
+body {
+	font-family: Tahoma, sans-serif;
+	font-size: 40px;
+}
+.flex{
+	display: -webkit-flex;
+	flex-direction: column;
+	align-items: center;
+}
+.A {
+	background-color: #dfe1e7;
+	border-top: 1px;
+	border-top-color: #687291;
+	border-top-style: solid;
+    width: 100px;
+	height: 100px;
+	text-align: center;
+	animation: square 7s linear 2s    ;
+}
+
+.B {
+	background-color: ##eeeff2;
+	border-top: 1px;
+	border-top-color: #687291;
+	border-top-style: solid;
+    width: 100px;
+	height: 100px;
+	text-align: center;
+	animation: square 7s linear 2s    ;
+}
+.zai {
+	width: 100px;
+	height: 10px;
+	background-color: white;
+}
+.F {
+	width: 100px;
+	height: 100px;
+	border: 4px;
+	border-color: black;
+	border-style: solid;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;
+	background-color: #687291;
+	animation: square 7s linear 2s    ;
+	position: relative;
+}
+.A:hover  {
+	animation: animate .5s , infinite  backwards ;
+	cursor: pointer;
+	background-color: gold;
+}
+.B:hover {
+	animation: animate .5s , infinite  backwards running ;
+	cursor: pointer;
+	background-color: lime;
+}
+@keyframes animate {
+	0%{
+		transform: translateY(0);
+	}
+	50%{
+		transform: translateY(-30px);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
+@keyframes square{
+	0%{
+		background-color: yellow;
+		left:0px;
+		top:0px;
+	}
+	15%{
+		background-color: red;
+		left:200px;
+		top:0px;
+	}
+	30%{
+		background-color: red;
+		left:200px;
+		top:-550px;
+	}
+	45%{
+		background-color: gold;
+		left:0px;
+		top:-550px;
+	}
+	60%{
+		background-color: blue ;
+		left:-200px;
+		top:-550px;
+	}
+	75%{
+		background-color: lime ;
+		left: -200px;
+		top:0px;
+	}
+	100%{
+		background-color: red ;
+		left: 0px;
+		top:0px;
+	}
+
+} 

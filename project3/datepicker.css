@@ -1,0 +1,62 @@
+body {
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table,
+tr,
+td {
+    width: 40px;
+    height: 40px;
+    border: 0px solid white;
+    text-align: center;
+    cursor: default;
+    border-color: rgba(105, 105, 105, .0);
+    backdrop-filter: blur(50px);
+    transition: 0s 1s;
+    border: 1px solid;
+    border-color: rgba(105, 105, 105, .0);
+}
+
+table {
+    width: 450px;
+    display: center;
+}
+
+body>h1 {
+    font-family: "Trendex Light SSi";
+    word-wrap: break-word;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.nextmonthbutton:active {
+    color: white;
+    transition: 0s;
+}
+
+.prevmonthbutton:active {
+    color: white;
+    transition: 0s;
+}
+
+.inactivedate {
+    color: grey;
+}
+
+#RightArrow {
+    height: 70px;
+}
+.selectdate{
+    border-color: white;
+    color: white;
+    border: 1px solid;
+}

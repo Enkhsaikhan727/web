@@ -1,0 +1,24 @@
+/*
+CSS for the header component.
+naming convention: header-_____
+*/
+
+#header-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-bottom:  #ff351c;
+}
+
+.header-my-logo {
+    width: 50px;
+    margin: 20px;
+    margin-left: 400px;
+}
+
+.header-phrase {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 2em;
+    color:skyblue;
+    white-space: nowrap;
+}
