@@ -1,5 +1,6 @@
-## Веб програмчлал - ICSI301 (CS142 Projects)
-- [x] Project#1: HTML and CSS 
-- [x] Project#2: Javascript Calisthenics
-- [x] Project#3: Javascript and the DOM
-- [x] Project#4: Page Generation with ReactJS
+## Веб програмчлал 
+- [x] Project1: done 
+- [x] Project2: done
+- [x] Project3: done
+- [x] Project4: done
+- [x] Project5: done
