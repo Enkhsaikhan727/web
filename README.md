@@ -4,3 +4,4 @@
 - [x] Project3: done
 - [x] Project4: done
 - [x] Project5: done
+- [x] Project6: done
